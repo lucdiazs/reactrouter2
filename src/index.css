@@ -20,14 +20,14 @@ body {
 .fototexto {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centrar horizontalmente */
-  justify-content: center; /* Centrar verticalmente */
-  height: 100vh; /* Ajustar al 100% de la altura de la ventana */
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
 }
 
 .pikachu {
   width: 500px;
-  height: auto; /* Mantener la proporción de la imagen */
+  height: auto; 
 }
 
 
@@ -35,30 +35,30 @@ nav {
   background-color: grey;
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Alinear verticalmente en el centro */
+  align-items: center;
   height: 50px;
   font-size: 20px;
-  padding: 0 20px; /* Agregar espacio alrededor de los elementos */
+  padding: 0 20px; 
 }
 
 .logo img {
-  height: 30px; /* Ajustar el tamaño del logo */
+  height: 30px; 
 }
 
 .container {
-  max-width: 800px; /* Ancho máximo del contenedor */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
-  text-align: center; /* Centra el contenido de forma horizontal */
+  max-width: 800px; 
+  margin: 0 auto; 
+  text-align: center; 
 }
 
 .card-container {
-  text-align: center; /* Centra el contenido horizontalmente */
-  max-width: 600px; /* Ancho máximo del contenedor */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  text-align: center; 
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
 .pokemon-image {
-  width: 300px; /* Ajusta el ancho de la imagen según sea necesario */
-  height: auto; /* Mantiene la proporción de la imagen */
+  width: 300px; 
+  height: auto;
 }
 
