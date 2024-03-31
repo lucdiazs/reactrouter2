@@ -45,6 +45,12 @@ nav {
   height: 30px; /* Ajustar el tamaño del logo */
 }
 
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  text-align: center; /* Centra el contenido de forma horizontal */
+}
+
 .card-container {
   text-align: center; /* Centra el contenido horizontalmente */
   max-width: 600px; /* Ancho máximo del contenedor */
