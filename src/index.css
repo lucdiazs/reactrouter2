@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  color: black;
+}
+
+.activo {
+  color: green;
+  text-decoration: none;
+}
+
+.desactivado {
+  color: red;
+  text-decoration: none;
+}
+
+.fototexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: center; /* Centrar verticalmente */
+  height: 100vh; /* Ajustar al 100% de la altura de la ventana */
+}
+
+.pikachu {
+  width: 500px;
+  height: auto; /* Mantener la proporción de la imagen */
+}
+
+
+nav {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinear verticalmente en el centro */
+  height: 50px;
+  font-size: 20px;
+  padding: 0 20px; /* Agregar espacio alrededor de los elementos */
+}
+
+.logo img {
+  height: 30px; /* Ajustar el tamaño del logo */
+}
+
+.card-container {
+  text-align: center; /* Centra el contenido horizontalmente */
+  max-width: 600px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.pokemon-image {
+  width: 300px; /* Ajusta el ancho de la imagen según sea necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
